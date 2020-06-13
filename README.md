@@ -4,4 +4,4 @@ Breast cancer develops from the breast tissue and shows different signs such as 
 In this project, the breast cancer classification of benign or malignant is carried out with the help of convolutional neural networks with simple SE-ResNet Model. The approach proposed in this work utilises CNN to extract features of histopathological images and classify the images into benign tumours and malignant tumours. 
 
 Solution Approach 
-![](images/SolutionApproach.png)
+![](https://github.com/rajalakshmi08/BeatCancer/images/SimpleSEResnet_Accuracy.png)
