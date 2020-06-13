@@ -5,11 +5,14 @@ In this project, the breast cancer classification of benign or malignant is carr
 
 ## Residual Networks
 Residual network gets added as a shortcut connection to the main path. For Identity mapping, the layers are added, and the other layers are derived from the learned model. Residual blocks with the shortcut connection enable to learn an identity function. These facilitate no impact on the training set because of the additional residual blocks getting stacked up
+ 
+<img src="./images/Resnet.jpg">
 
 ## Squeeze and Excitation Networks
 SE-ResNet is built upon the convolution operation, which extracts informative features by fusing spatial and channel-wise information within local receptive fields.
 SE proposed a weighted representation on a layer rather an equal representation. By learning the corresponding weights of each channel in the SE-block, it introduces an addition hyperparameter, r (ratio) to be used. For c number of channels, it attempts to learn a (sigmoidal) vector of size c (a tensor of 1x1xc to be exact) and multiplies it with the current tensor in the given layer.
 
+<img src="./images/SE.jpg">
 
 <ins><b>Solution Approach</b></ins>
 <img src="./images/SolutionApproach.jpg">
