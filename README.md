@@ -5,3 +5,7 @@ In this project, the breast cancer classification of benign or malignant is carr
 
 SimpleSEResnet_Accuracy
 <img src="./images/SimpleSEResnet_Accuracy.jpg">
+
+SimpleSEResnet_Accuracy
+<img src="./images/SolutionApproach.jpg">
+
