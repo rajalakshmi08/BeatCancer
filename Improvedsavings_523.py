@@ -15,6 +15,8 @@ import math
 import csv
 import pandas as pd
 import numpy as np
+import os
+os.system('"C:/Windows/System32/notepad.exe"')
 
 df_Locations = data = pd.read_csv('D:\\Raji\\2ndSemester\\S&O\\Assessment\\sample\\SaO_Optilandia_locations.csv')
 df_Locations['capacity'] = df_Locations['capacity'].fillna(0)
